@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+video {
+    padding: 20px 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    height: 100%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-family: 'Lato';
+    font-size: 1.1em;
+    margin: 30px 0;
+    a {
+        text-decoration: none;
+        padding: 10px;
+        border: 1px solid steelblue;
+    }
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+
+marquee {
+    background-color: #F10004;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.linea2 {
+    border-bottom: 1px blue dotted;
+    width: 100%;
+    margin: 10px 0S;
+}
+
+/*titulo*/
+
+.titulo {
+    width: 100%;
+    height: 80px;
+    background-color: #9E0204;
+    border-left: 10px red solid;
+    margin-bottom: 4px;
+    line-height: 25px;
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+    &:hover {
+        background-color: #178EC8;
+        border-left: 40px red solid;
+        border-right: 40px red solid
+    }
+}
+
+.titulo>h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.titulo>h3 {
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    color: white;
+}
+
+/* fin titulo */
+
+.menu_bar i {
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+
+.cont_der table {
+    margin: auto;
+}
+
+p {
+    font-size: .8em;
+}
+
+.imgsombra {
+    -webkit-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+audio {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.himno {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    color: blue;
+}
+
+.imprimir {
+    background: #C63;
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    position: relative;
+    left: 80%;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+/* fin contenedor */
+
+.logo {
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    a {
+        color: #001A90;
+        font-size: 1.5em;
+        ;
+        list-style: none;
+        text-decoration: none;
+    }
+}
+
+.logo>h1 {
+    font-family: 'Satisfy', cursive;
+    /*	font-family: 'Dancing Script', cursive;*/
+    color: #001A90;
+}
+
+/* texto de bienvenida */
+
+article.centro0 {
+    background-color: #DDFCFF;
+    color: #000;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4em;
+    border-top: 1px black dotted;
+    border-bottom: 1px black dotted;
+}
+
+article.centro0 h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+article.centro0>p {
+    font-family: 'Lato', sans-serif;
+}
+
+article.centro1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-top: 1px #ddd dotted;
+    background-color: rgba(287, 358, 191, .6);
+}
+
+/* fin de texto de bienvenida */
+
+/* CAJA DE JABONES */
+
+/*.caja_prin_jabones {
+width:100%;
+margin:auto;
+border:1px solid red;
+padding:10px;
+}*/
+
+.caja_prin_jabones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caja_jabones {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 2px;
+    border: 1px solid red;
+    vertical-align: top;
+    p {
+        font-size: .7em;
+        margin-bottom: 1px;
+    }
+}
+
+.foto_jabones {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    position: relative;
+    img {
+        width: 100%;
+
+    }
+}
+
+
+
+.texto_jabones {
+    padding: 5px;
+    h5 {
+        display: block;
+        height: 5%;
+        line-height: 20px;
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+.caja_video {
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* fin caja de jabones */
+
+/* comienzo link divido en 4 */
+
+.texto4 {
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: .9em;
+}
+
+i {
+    padding-bottom: 18px;
+    color: #0094E7;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    &:hover {
+        color: red;
+    }
+}
+
+.texto4>a {
+    text-decoration: none;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    font-family: 'Lato', sans-serif;
+    color: #A3085A;
+    &:hover {
+        color: #0094E7;
+    }
+}
+
+/* fin div en 4 */
+
+.clear {
+    clear: both;
+}

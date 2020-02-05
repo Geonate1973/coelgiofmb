@@ -1,0 +1,10 @@
+/* CSS Document */
+
+
+.done { display: none }
+
+.caja_formulario {
+	width: 100%;
+	padding:20px 20px;
+	background-color: #DDFCFF;
+}

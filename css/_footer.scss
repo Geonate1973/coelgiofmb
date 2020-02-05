@@ -1,0 +1,57 @@
+/*comienzo de FOOTER o PIE DE PAGINA*/
+
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: #3E3C3C;
+  width: 100%;
+  margin-top: 10px;
+  border-top: 1px red solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: .8em;
+  p {
+    color: #fff;
+    text-align: center;
+  }
+  a {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    &:hover {
+      color: #777676;
+      text-decoration: none;
+      background-color: #B0FCFD;
+    }
+  }
+  .social {
+    margin-top: 10px;
+    a {
+      width: 190px;
+    }
+  }
+}
+
+.texto_direccion p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/*FIN DE FOOTER*/
+
+/* mapa */
+
+.mapas {
+  border: 1px black solid;
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* fin mapas */

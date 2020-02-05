@@ -1,0 +1,59 @@
+/*comienzo de FORMULARIO	*/
+
+.formulario {
+  margin: 20px 0;
+  padding: 0;
+}
+
+fieldset {
+  width: 70%;
+  margin: auto;
+  background-color: #938631;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+label {
+  /*font-weight:800;*/
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  margin: auto;
+  width: 60%;
+  height: 30px;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+
+  &:focus {
+    background: #83DAEC;
+  }
+}
+
+
+
+/*INPUT:focus:hover {background: #99FF99;}*/
+
+textarea {
+  margin: auto;
+  font-size: 1.4em;
+  width: 60%;
+  height: 175px;
+}
+
+input.boton {
+  float: right;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 150px;
+  background-color: #B9AD5E;
+  font-size: .9em;
+
+  &:hover {
+    background-color: white;
+  }
+}
+
+
+/*FIN DE FORMULARIO*/

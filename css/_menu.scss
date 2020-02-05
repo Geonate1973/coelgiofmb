@@ -1,0 +1,126 @@
+/* Menu Pag */
+
+.menu_pag {
+  font-size: .9em;
+}
+
+/*menu superior*/
+
+nav {
+  display: block;
+  background-color: #DDFCFF;
+  width: 100%;
+}
+
+.linea {
+  margin-top: 3px;
+  border-bottom: 5px #178EC8 double;
+  width: 100%;
+  height: 55px;
+  background-color: #11B9C7;
+}
+
+.menu_sup {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  li {
+    list-style: none;
+    padding-right: 2px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+  }
+  a {
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: .8em;
+    text-decoration: none;
+    padding: 0 10px;
+    border-bottom: 1px red solid;
+    height: 25px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  i {
+    padding-right: 5px;
+    color: #fff;
+  }
+}
+
+.menu_sup>li>a:hover {
+  border-bottom: 25px red solid;
+}
+
+.menu_bar {
+  display: none;
+}
+
+/* segundo nivel del menu */
+
+.children {
+  display: none;
+  position: absolute;
+  font-size: 1rem;
+  background-color: #23C9E4;
+  z-index: 200;
+}
+
+.children li a {
+  border-bottom: 0;
+  text-align: start;
+}
+
+.children li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu_sup li:hover .children {
+  display: block;
+}
+
+/* fin menu */
+
+/*menu superior cel*/
+
+.menu_sup_cel {
+  display: none;
+}
+
+.menu_sup_cel ul li {
+  display: block;
+}
+
+.menu_sup_cel a {
+  display: block;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+.menu_sup_cel i {
+  padding-right: 5px;
+  color: #fff;
+}
+
+/* sub menu del celular */
+
+.menu_sup_cel ul li .children {
+  display: none;
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  z-index: 200;
+}
+
+.menu_sup_cel ul li:hover .children {
+  display: block;
+}
+
+/* fin de sub menu del celular */
+
+/* fin menu sup cel*/

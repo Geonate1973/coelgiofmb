@@ -1,0 +1,135 @@
+/*contenedores*/
+
+.contenedor_p {
+  position: relative;
+  height: 100vh;
+}
+
+.contenedor_central {
+  width: 100%;
+  margin: auto;
+  padding-top: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+.contenedor_s {
+  width: 60%;
+  margin: 2px auto;
+  /*min-width:1250px;*/
+}
+
+.primercontenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.imagen_secciones {
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+}
+
+.cont_der {
+  float: left;
+  width: 100%;
+  font-weight: 100;
+  padding: 0 10px;
+  background-color: rgba(255, 255, 255, .7);
+  h3 {
+    display: block;
+    background-color: #A7F1FD;
+    width: 100%;
+    height: 100%;
+    color: #4F4D4D;
+    padding-left: 3px;
+    line-height: 30px;
+  }
+  h1 {
+    border-bottom: 1px solid red;
+    color: #3F282D;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+  }
+  h4 {
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    // padding-left: 10px;
+    color: gray;  
+    // font-size: 1em;
+    span {
+      font-weight: bold;
+    }
+  }
+  ul {
+    padding-left: 50px;
+    ;
+  }
+  i {
+    margin-left: 10px;
+    ;
+    color: #000;
+  }
+}
+
+.cont_izq img {
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.centro_index {
+  height: 400px;
+  img {
+    height: 100%;
+  }
+  p {
+    font-size: 1.3em;
+  }
+}
+
+/*.centro_index {
+    float:left;
+    width:33.333%;
+    min-width:250px;
+    height:370px;
+    overflow:hidden;
+    margin-bottom: 10px;	background-color: rgba(255,255,255,.5);
+    padding:10px;}*/
+
+.centro_indexscroll {
+  float: left;
+  width: 33.333%;
+  min-width: 250px;
+  height: 370px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 10px;
+  p {
+    font-size: 1em;
+  }}
+  .foto100 {
+    margin: auto;
+    width: 90%;
+    height: 300px;
+    background-image: url(../img/pro_edu.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .fotomision {
+    margin: auto;
+    width: 90%;
+    height: 300px;
+    background-image: url(../img/mision.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;}
